@@ -1,0 +1,258 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+body {
+  background-color: black;
+}
+.nav {
+  font-family: Arial, Helvetica, sans-serif;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  background-color: black;
+  height: 90px;
+}
+.one {
+  font-size: 24px;
+  color: white;
+  font-weight: bold;
+  margin-left: 50px;
+  text-decoration: none;
+}
+.two,
+.three,
+.four {
+  font-size: 18px;
+  color: white;
+  text-decoration: none;
+}
+.five {
+  color: #605ffc;
+  font-size: 18px;
+  text-decoration: none;
+}
+.two,
+.three,
+.four,
+.five {
+  margin-top: 5px;
+  margin-left: 30px;
+}
+.two {
+  margin-left: 720px;
+}
+.icon {
+  margin-left: 30px;
+  color: #605ffc;
+  cursor: pointer;
+  font-size: 30px;
+  /* height: 40px;
+  width: 40px; */
+}
+.register {
+  height: 47px;
+  width: 175px;
+  font-size: 18px;
+  font-family: Arial, Helvetica, sans-serif;
+  border-radius: 15px;
+  background-color: black;
+  color: white;
+  border: 0.5px solid white;
+  cursor: pointer;
+  margin-left: 30px;
+}
+.two:hover {
+  color: #605ffc;
+  transition: 0.5s ease-in-out;
+}
+.three:hover {
+  color: #605ffc;
+  transition: 0.5s ease-in-out;
+
+}
+.four:hover {
+  color: #605ffc;
+  transition: 0.5s ease-in-out;
+
+}
+.register:hover {
+  color: rgb(183, 183, 183);
+  border-color: rgb(183, 183, 183);
+  transition: 0.5s ease-in-out;
+}
+.five:hover {
+  color: #4848c3;
+  transition: 0.5s ease-in-out;
+
+}
+.future {
+  margin-left: 50px;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 130px;
+  margin-top: 10px;
+  color: white;
+}
+.trends {
+  color: white;
+  font-size: 24px;
+  font-family: Arial, Helvetica, sans-serif;
+  margin-left: 60px;
+  margin-top: -10px;
+}
+.sec {
+  color: white;
+  font-size: 24px;
+  margin-left: 60px;
+  font-family: Arial, Helvetica, sans-serif;
+  position: relative;
+  top: 4px;
+}
+.now {
+  height: 50px;
+  width: 170px;
+  font-size: 18px;
+  font-family: Arial, Helvetica, sans-serif;
+  border-radius: 15px;
+  background-color: #605ffc; 
+  color: white;
+  margin-left: 60px;
+  margin-top: 28px;
+  border: none;
+  cursor: pointer;
+}
+.now:hover {
+  color: rgb(183, 183, 183);
+  background-color: #4848c3;
+}
+.in {
+  margin-left: 50px;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 130px;
+  color: white;
+  position: relative;
+  top: -25px;
+}
+.web {
+  color: white;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 24px;
+  display: flex;
+  flex-direction: row-reverse;
+  margin-right: 65px;
+}
+.nov {
+  margin-top: 5px;
+  color: white;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 24px;
+  display: flex;
+  flex-direction: row-reverse;
+  margin-right: 65px;
+}
+.time {
+  margin-top: 5px;
+  color: white;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 24px;
+  display: flex;
+  flex-direction: row-reverse;
+  margin-right: 65px;
+}
+.imgone {
+  height: 432px;
+  width: 322px;
+  margin-left: 270px;
+}
+.imgtwo {
+  height: 385px;
+  width: 385px;
+  position: relative;
+  top: 300px;
+  right: 220px;
+}
+.imgthree {
+  position: relative;
+  width: 230px;
+  height: 170px;
+  right: 675px;
+  top: 435px;
+}
+.speakerHeading {
+  margin-top: 600px;
+}
+.meet {
+  color: white;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 38px;
+  text-align: center;
+}
+.speakers {
+  margin-top: 80px;
+  display: flex;
+}
+.spk {
+  width: 360px;
+  height: 478px;
+}
+.jay {
+  margin-left: 160px;
+}
+.harlow, .tony {
+  margin-left: 60px;
+}
+.line {
+  height: 2px;
+  width: 1200px;
+  margin-left: 160px;
+  margin-top: 80px;
+  background-color: white;
+}
+.wywl {
+  font-size: 38px;
+  font-family: Arial, Helvetica, sans-serif;
+  text-align: center;
+  color: white;
+  margin-top: 70px;
+}
+.wywlParent {
+  margin-left: 200px;
+  display: flex;
+  color: white;
+  font-family: Arial, Helvetica, sans-serif;
+  margin-top: 140px;
+}
+.zeroOne, .zeroTwo, .zeroThree {
+  font-size: 100px;
+}
+.aboutZeroOne, .aboutZeroTwo, .aboutZeroThree {
+  font-size: 24px;
+  width: 234px;
+  margin-top: 10px;
+}
+.wywlTwo, .wywlThree {
+  margin-left: 200px;
+}
+.buzz {
+  margin-top: 130px;
+  display: flex;
+  align-items: center;
+  font-family: Arial, Helvetica, sans-serif;
+  color: white;
+  margin-left: 500px;
+}
+.buzzone {
+  font-size: 24px;
+}
+.buzzRegister {
+  margin-left: 30px;
+  color: white;
+  height: 50px;
+  width: 170px;
+  border: none;
+  cursor: pointer;
+  font-size: 18px;
+  text-align: center;
+  border-radius: 15px;
+  background-color: #605ffc; 
+}
